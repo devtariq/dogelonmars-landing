@@ -1,0 +1,28 @@
+/*=================================
+Bootstrap Cusotmization
+*/
+$body-color: #716c80;
+$body-bg: #111420;
+$primary: #62c3ff;
+$success: #35ceaa;
+$light: #caced5;
+$secondary: #3a7de4;
+$mute: #acacac;
+$headings-color: #3d006f;
+$border-color: rgba(255, 255, 255, 0.05);
+$white: #fff;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $white,
+  "light": $light,
+
+  // Custom Color
+);
+// Custom.scss
+$card-border-width: 0px;
+$breadcrumb-divider: quote("||");
+
+// Option A: Include all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
